@@ -23,11 +23,12 @@
 /load addons
 /load screenshot
 
-/addon load distance
+#/addon load distance
 /addon load fps
 /addon load move
-/addon load timestamp
+#/addon load timestamp
 /addon load tparty
+/addon load drawdistance
 
 ##########################################################################
 #
@@ -67,3 +68,7 @@
 ##########################################################################
 
 /ambient 255 255 255
+/fps 1
+/fps hide
+/drawdistance setworld 20
+/drawdistance setmob 20
