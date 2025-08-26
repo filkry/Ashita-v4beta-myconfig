@@ -24,6 +24,7 @@
 /load screenshot
 
 #/addon load distance
+/addon load aspect
 /addon load fps
 /addon load move
 #/addon load timestamp
